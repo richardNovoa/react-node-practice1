@@ -1,0 +1,30 @@
+{
+  "name": "react-node-practice1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server",
+    "server": "nodemon server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/richardNovoa/react-node-practice1.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/richardNovoa/react-node-practice1/issues"
+  },
+  "homepage": "https://github.com/richardNovoa/react-node-practice1#readme",
+  "devDependencies": {
+    "concurrently": "^7.0.0",
+    "nodemon": "^2.0.15"
+  },
+  "dependencies": {
+    "config": "^3.3.7",
+    "express": "^4.17.2",
+    "express-router": "^0.0.1",
+    "mongoose": "^6.1.6"
+  }
+}
