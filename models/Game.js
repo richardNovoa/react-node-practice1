@@ -2,7 +2,7 @@ const mongoose = require("mongoose");
 
 const GameSchema = new mongoose.Schema({
   moves: {
-    type: Array,
+    type: String,
     required: true,
   },
   date: {
